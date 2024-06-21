@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-[400px] border rounded-lg m-auto mt-[5px]">
+        <div class="text-center font-bold text-[20px] p-[15px] border-b">
+            User Register Form
+        </div>
+        <div class="p-[17px]">
+            <form id="form">
+                <div class="mb-[10px] inputControl">
+                    <label class="flex text-[16px] font-bold mb-[5px]" for="">Name</label>
+                    <input id="name" class="border w-full p-[5px] h-[40px] rounded" type="text">
+                    <div class="error mt-[3px] text-[#FE3737] text-sm"></div>
+                </div>
+
+                <div class="mb-[10px] inputControl">
+                    <label class="flex text-[16px] font-bold mb-[5px]" for="">Surname</label>
+                    <input id="surname" class="border w-full p-[5px] h-[40px] rounded" type="text">
+                    <div class="error mt-[3px] text-[#FE3737] text-sm"></div>
+                </div>
+
+                <div class="mb-[10px] inputControl">
+                    <label class="flex text-[16px] font-bold mb-[5px]" for="">Phone</label>
+                    <input id="phone" class="border w-full p-[5px] h-[40px] rounded" type="text">
+                    <div class="error mt-[3px] text-[#FE3737] text-sm"></div>
+                </div>
+
+                <div class="mb-[10px] inputControl">
+                    <label class="flex text-[16px] font-bold mb-[5px]" for="">Email</label>
+                    <input id="email" class="border w-full p-[5px] h-[40px] rounded" type="text">
+                    <div class="error mt-[3px] text-[#FE3737] text-sm"></div>
+                </div>
+
+                <div class="mb-[10px] inputControl">
+                    <label class="flex text-[16px] font-bold mb-[5px]" for="">Password</label>
+                    <input id="password" name="password" class="border w-full p-[5px] h-[40px] rounded" type="text">
+                    <div class="error mt-[3px] text-[#FE3737] text-sm"></div>
+                </div>
+
+                <div class="mb-[10px] inputControl">
+                    <label class="flex text-[16px] font-bold mb-[5px]" for="">Repeat Password</label>
+                    <input id="rpassword" name="rpassword" class="border w-full p-[5px] h-[40px] rounded" type="text">
+                    <div class="error mt-[3px] text-[#FE3737] text-sm"></div>
+                </div>
+
+                <div class="mt-[20px]">
+                    <button type="submit" class="text-white bg-[#FE3737] w-full text-[16px] font-bold rounded p-[9px]">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
